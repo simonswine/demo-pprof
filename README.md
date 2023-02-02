@@ -9,7 +9,7 @@ This repository contains a simple pprof demo that should help explaining how dif
 * On your local machine:
 
     ```
-    $ pprof https://raw.githubusercontent.com/simonswine/demo-pprof/main/cpu.pb.pprof
+    $ pprof -http :6060 https://raw.githubusercontent.com/simonswine/demo-pprof/main/cpu.pb.gz
     ```
 
 * On [pprof.me](https://pprof.me/b9d077f/)
